@@ -1,0 +1,56 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+
+
+    <EditText
+        android:hint="@string/search_map_hint"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/customized_edittext"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_search"
+        android:layout_marginRight="10dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:text="Go"
+        android:layout_toRightOf="@id/et_search"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        tools:context="homeseek.app.android.capstonehomeseek.PropertyLocationMap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_search" />
+
+    <Switch
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Type "
+        android:id="@+id/mapType"
+        android:layout_alignTop="@+id/map"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+

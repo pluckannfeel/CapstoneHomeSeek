@@ -1,0 +1,180 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="homeseek.app.android.capstonehomeseek.Fragments.MyAccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            card_view:cardBackgroundColor="@android:color/transparent"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="9dp"
+            >
+
+
+            <FrameLayout
+                android:layout_height="540dp"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="20dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:background="@drawable/my_list_view">
+
+                <ImageView
+                    android:src="@drawable/default_photo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/display_image"
+                    android:text="User Name"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/name"
+                    android:layout_marginTop="160dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+                <LinearLayout
+                    android:layout_marginTop="200dp"
+                    android:orientation="horizontal"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:paddingBottom="10dp">
+
+                    <RelativeLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/text_user_name"
+                            android:layout_marginTop="30dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Username:"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                        <TextView
+                            android:id="@+id/text_contact_no"
+                            android:layout_marginTop="80dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact Number:"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                        <TextView
+                            android:id="@+id/text_email"
+                            android:layout_marginTop="130dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email Address:"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                        <TextView
+                            android:id="@+id/text_address"
+                            android:layout_marginTop="180dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="City Address:"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_marginTop="30dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/user_name"
+                            android:text="Username"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                        <TextView
+                            android:layout_marginTop="80dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/user_cno"
+                            android:text="Number"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                        <TextView
+                            android:layout_marginTop="130dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/user_email"
+                            android:text="Email"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                        <TextView
+                            android:layout_marginTop="180dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/user_address"
+                            android:text="address"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/editDetails"
+        android:background="@drawable/oval"
+        android:src="@drawable/createlisting"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|bottom" />
+
+
+</FrameLayout>

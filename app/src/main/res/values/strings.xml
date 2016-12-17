@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">HomeSeek</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="cities">
+        <item>Davao</item>
+        <!--<item>Island Garden City of Samal</item>-->
+        <!--<item>Cebu</item>-->
+        <!--<item>Manila</item>-->
+        <!--<item>Iloilo</item>-->
+        <!--<item>Bohol</item>-->
+        <!--<item>Baguio</item>-->
+        <!--<item>Aklan</item>-->
+        <!--<item>Capiz</item>-->
+        <!--<item>Palawan</item>-->
+        <!--<item>Cagayan De Oro</item>-->
+        <!--<item>Taguig</item>-->
+        <!--<item>Ormoc</item>-->
+        <!--<item>Cavite</item>-->
+    </string-array>
+
+    <string-array name="bedrooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="bathrooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Available</item>
+        <item>Unavailable</item>
+    </string-array>
+
+    <string-array name="property_type">
+        <item>Apartment</item>
+        <item>House</item>
+        <item>Townhouse</item>
+        <item>Board House</item>
+        <item>Bed Space</item>
+        <item>Room</item>
+        <item>Dormitory</item>
+        <item>Condominium</item>
+    </string-array>
+
+    <string-array name="property_term">
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annually</item>
+    </string-array>
+
+    <string name="title_activity_property_location_map">Map</string>
+
+    <string name="search_map_hint"><i>Search a place, site e.g</i></string>
+    <string name="third_paragraph">You should be aware that there are certain responsibilities we don’t take. These are the agreement between the user and the land lord, we don’t also owned the rules and regulations made by the land lord and downloading the app from the app store. Wi-Fi or Mobile Data is needed to access the app, if there’s any malfunctions and slow loading of data please refer to the internet connection. We don’t also accept liabilities of damages of your device such as caused by negligence, unless it’s our wilful misconduct.</string>
+    <string name="second_paragraph">At the bottom of these terms and conditions you will find another terms and conditions that will be applied to any renting establishments that is app supported for persons who seeks places to stay which is relevant if using in app.</string>
+    <string name="first_paragraph">By downloading this app, the terms and conditions will automatically apply to you. Therefore you should read them carefully before using it, we made this app for your personal use, but please be aware that this app is not allowed for copying, modifying or take any parts of our app. You are not allowed to extract source codes in this app or derivate it into another versions.</string>
+    <string name="fourth_paragraph">At some point we would also like to upgrade the app for your personal satisfaction of using it. It is currently available on Android, to keep the app you also need to download the updates for proper functions and bug fixes.</string>
+    <string name="fifth_paragraph">Please read carefully the stated terms and conditions that are listed below, because it will automatically apply to you as you agreed to our negotiation as part of the development of our app. Your access of the service is conditioned on your acceptance of and compliance with these terms.</string>
+    <string name="sixth_paragraph">1.\tYour establishment is used as part of the development of our application as a requirement of our subject IT20 Capstone, therefore we will took pictures at some part of the building to be used as a reference thus this pictures are posted online since our app is for online used.</string>
+    <string name="seventh_paragraph">2.\tThe data that we will be gathering is hidden for your own privacy used except only for the description that is needed to be posted for the users prior use and to be knowledgeable for the specific area that is been rented.</string>
+    <string name="eight_paragraph">3.\tSince you agreed to the negotiation your establishment will have a free advertisement online, it will be a great advantage to your establishment to increase profit and to increase renters that are interested to your renting establishment.</string>
+    <string name="ninth_paragraph">4.\tWe don’t accept any liabilities between you and the renter’s negotiation unless it’s our wilful misconduct for not putting correct description to your establishment.</string>
+    <string name="tenth_paragraph">5.\tWhatever rules you may apply to your establishment is not part of our concern, which will be only used between you and your renter’s negotiation.</string>
+
+</resources>

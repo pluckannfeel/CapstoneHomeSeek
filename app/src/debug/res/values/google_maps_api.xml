@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=CF:A6:7C:BA:F8:5A:8B:65:39:38:28:8C:AC:C8:EE:79:36:45:64:24%3Bhomeseek.app.android.capstonehomeseek
+
+    You can also add your credentials to an existing key, using this line:
+    CF:A6:7C:BA:F8:5A:8B:65:39:38:28:8C:AC:C8:EE:79:36:45:64:24;homeseek.app.android.capstonehomeseek
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyC4IQNLsMA7tyoVo5dmTvCdTi60PyN6FiE
+    </string>
+</resources>

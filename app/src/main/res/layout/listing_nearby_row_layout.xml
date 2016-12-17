@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="5dp"
+        >
+
+        <FrameLayout
+            android:background="@drawable/my_list_view"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ln_property_name"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Property Name"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ln_type"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Type"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ln_price"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Price"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ln_distance"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Distance Between"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"/>
+
+        </FrameLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

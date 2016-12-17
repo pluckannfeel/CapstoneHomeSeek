@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Rate Property"
+        android:id="@+id/rate_property"
+        android:icon="@drawable/rate"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:title="Show Map Location"
+        android:id="@+id/map_location"
+        android:icon="@drawable/place"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:title="Pin this listing"
+        android:id="@+id/pin_listing"
+        android:icon="@drawable/pushpin"
+        app:showAsAction="ifRoom"></item>
+
+</menu>

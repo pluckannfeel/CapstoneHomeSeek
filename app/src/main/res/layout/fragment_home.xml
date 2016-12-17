@@ -1,0 +1,310 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="homeseek.app.android.capstonehomeseek.Fragments.HomeFragment"
+    android:background="#D3D3D3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/btn_search"
+        android:background="#f06c00"
+        android:textColor="#FFFFFF"
+        android:text="Search Property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_bathroom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginBottom="40dp"
+
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/layout_bg"
+        >
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/rtv_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_city"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/city"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_toRightOf="@id/iv_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="City"
+                            android:textSize="24sp"
+                            />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@id/rtv_city"
+                        android:id="@+id/r_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <Spinner
+                            android:background="@drawable/customized_edittext"
+                            android:id="@+id/s_city"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            android:inputType="text"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rtv_term"
+                        android:layout_below="@id/r_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_term"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/calendar"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Length of stay"
+                            android:textSize="24sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/iv_term"
+                            android:id="@+id/textView3" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/r_term"
+                        android:layout_below="@+id/rtv_term"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal">
+                        <Spinner
+                            android:background="@drawable/my_spinner"
+                            android:id="@+id/s_term"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@id/r_term"
+                        android:id="@+id/rtv_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_type"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/propertydefault"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Type"
+                            android:textSize="24sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/iv_type"
+                            android:id="@+id/textView5" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/r_type"
+                        android:layout_below="@id/rtv_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp">
+                        <Spinner
+                            android:background="@drawable/my_spinner"
+                            android:id="@+id/s_type"
+                            android:layout_width="130dp"
+                            android:layout_height="40dp"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@id/r_type"
+                        android:id="@+id/rtv_rate"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_rate"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/money"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rate"
+                            android:textSize="24sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/iv_rate"
+                            android:id="@+id/textView6" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/r_rate"
+                        android:layout_below="@id/rtv_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp">
+                        <EditText
+                            android:hint="Min"
+                            android:background="@drawable/customized_edittext"
+                            android:id="@+id/et_min"
+                            android:layout_width="62dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:layout_marginRight="10dp"
+                            />
+
+                        <EditText
+                            android:layout_toRightOf="@id/et_min"
+                            android:hint="Max"
+                            android:background="@drawable/customized_edittext"
+                            android:id="@+id/et_max"
+                            android:layout_width="62dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:layout_alignParentTop="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@id/r_rate"
+                        android:id="@+id/rtv_bedroom"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_bedroom"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/sleepy"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bedrooms"
+                            android:textSize="24sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/iv_bedroom"
+                            android:id="@+id/textView7" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/r_bedroom"
+                        android:layout_below="@+id/rtv_bedroom"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                        android:background="@drawable/customized_edittext"
+                        android:id="@+id/et_bedroom"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rtv_bathroom"
+                        android:layout_below="@id/r_bedroom"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/iv_bathroom"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/bathtub"
+                            android:layout_marginRight="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bathrooms"
+                            android:textSize="24sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/iv_bathroom"
+                            android:id="@+id/textView8" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/r_bathroom"
+                        android:layout_below="@id/rtv_bathroom"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:background="@drawable/customized_edittext"
+                            android:id="@+id/et_bathroom"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

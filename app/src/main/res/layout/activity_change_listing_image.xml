@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9d9d9">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="homeseek.app.android.capstonehomeseek.ChangeListingImage"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_details"
+            android:layout_width="match_parent"
+            android:layout_height="470dp"
+            android:layout_gravity="center"
+            card_view:cardBackgroundColor="@android:color/transparent"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="7dp"
+            >
+
+
+            <FrameLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="20dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:background="@drawable/my_list_view">
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_name"
+                    android:text="Change Listing Image"
+                    android:textAppearance="?android:textAppearanceLarge"/>
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:background="#f5f5f0"
+                        android:src="@drawable/addproperty"
+                        android:scaleType="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="340dp"
+                        android:layout_height="340dp"
+                        android:id="@+id/iv_property_image"
+                        android:text="addphoto"
+                        android:textAppearance="?android:textAppearanceLarge"/>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

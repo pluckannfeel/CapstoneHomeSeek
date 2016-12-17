@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context="homeseek.app.android.capstonehomeseek.Fragments.TermsConditionsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_details"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:gravity="center"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="7dp"
+            android:background="@drawable/my_list_view"
+            >
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:src="@drawable/homeseeklogo"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Capstone Title"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Terms and Conditions\n for Using the App"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/first_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/second_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/third_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/fourth_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Terms and Conditions for Landlords"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/fifth_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/sixth_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/seventh_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/eight_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/ninth_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/tenth_paragraph"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_marginBottom="10dp"/>
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>
